@@ -176,6 +176,7 @@ Added margins and centered text.
 .third-project,
 .fourth-project,
 .fifth-project {
+    position: relative;
     float: right;
     width: 25%;
     height: 150px;
@@ -194,6 +195,17 @@ Added margins and centered text.
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.first-project:hover,
+.second-project:hover,
+.third-project:hover,
+.fourth-project:hover,
+.fifth-project:hover {
+    background-color: var(--dark-brown);
+    padding: 10px;
+    opacity: 30%;
+    border-radius: 20px;
 }
 
 #contact {
