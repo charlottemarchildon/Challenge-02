@@ -8,6 +8,7 @@ Declaring root variables
 */
 :root {
     --background-yellow: #fffeed;
+    --h1-brown: #733c0b;
 }
 
 /*
@@ -32,8 +33,10 @@ Font assigned for header
 }
 
 /*
-Font assigned for header h1
+Font and font colour assigned for header h1
 */
 .header h1 {
     font-family: 'Bebas Neue', sans-serif;
+    color: var(--h1-brown);
 }
+
