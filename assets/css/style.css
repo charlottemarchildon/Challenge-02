@@ -47,7 +47,7 @@ Text centered.
     text-align: center;
     align-items: center;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 64px;
+    font-size: 120px;
     color: var(--h1-brown);
     margin-bottom: 20px;
     padding: 15px;
@@ -71,9 +71,11 @@ Centered image. Made image 250px by 250px.
     width: 250px;
 }
 
-/*
-Made nav display inline.
-*/
-.header .nav ul li {
-    display: inline;
+.nav {
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 20px 20px;
 }
