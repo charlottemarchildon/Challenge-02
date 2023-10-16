@@ -249,3 +249,10 @@ Added margins and centered text.
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+input[type=submit] {
+    back
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 20px;
+}
