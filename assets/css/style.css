@@ -9,6 +9,7 @@ Declaring root variables
 :root {
     --background-yellow: #fffeed;
     --h1-brown: #733c0b;
+    --span-colour: #e03d0b;
 }
 
 /*
@@ -40,3 +41,9 @@ Font and font colour assigned for header h1
     color: var(--h1-brown);
 }
 
+/*
+Changing colour for last name
+*/
+.last-name {
+    color: var(--span-colour);
+}
