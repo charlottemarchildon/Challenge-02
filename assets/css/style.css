@@ -122,7 +122,8 @@ Making section 100% of the viewport.
 Added title font, size and colour. 
 Centered text.
 */
-#about-me h2 {
+#about-me h2,
+#contact h2 {
     font-family: var(--title-font);
     font-size: 64px;
     color: var(--dark-brown);
