@@ -24,10 +24,16 @@ body {
     background-color: var(--background-yellow);
 }
 
+/*
+Font assigned for header
+*/
 .header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*
+Font assigned for header h1
+*/
 .header h1 {
     font-family: 'Bebas Neue', sans-serif;
 }
