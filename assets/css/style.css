@@ -27,14 +27,17 @@ body {
 }
 
 /*
-Font assigned for header
+Font assigned for header.
+Height made to fit 100% of the viewport.
 */
 .header {
+    height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*
-Font and font colour assigned for header h1
+Font and font colour assigned for header h1.
+Text centered.
 */
 .header h1 {
     text-align: center;
