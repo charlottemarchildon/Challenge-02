@@ -251,8 +251,12 @@ Added margins and centered text.
 }
 
 input[type=submit] {
-    back
     font-size: 15px;
     padding: 7px;
     border-radius: 20px;
+}
+
+input[type=submit]:hover {
+    color: var(--dark-brown);
+    cursor: pointer;
 }
