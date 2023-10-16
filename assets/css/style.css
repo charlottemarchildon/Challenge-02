@@ -1,11 +1,20 @@
+/*
+Declaring root variables 
+*/
 :root {
     --background-yellow: #fffeed;
 }
 
+/*
+Assigning a border-box to all page content 
+*/
 * {
     box-sizing: border-box;
 }
 
+/*
+Assigning the background colour to a yellowish-white 
+*/
 body {
     background-color: var(--background-yellow);
 }
