@@ -100,7 +100,8 @@ Added margins to space out between items as well as top and bottom.
 Removed text decoration from list item links.
 Changed text colour.
 */
-.nav ul li a {
+.nav ul li a,
+.footer ul li a {
     text-decoration: none;
     color: var(--dark-brown);
 }
@@ -262,15 +263,16 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 
-footer {
+.footer {
     background-color: var(--footer-colour);
     align-items: center;
     text-align: center;
     font-family: var(--paragraph-font);
 }
 
-footer ul li {
+.footer ul li {
     display: inline-block;
     margin: 20px 80px;
     font-size: 20px;
+    color: var(--dark-brown);
 }
