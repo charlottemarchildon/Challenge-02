@@ -276,3 +276,7 @@ input[type=submit]:hover {
     font-size: 20px;
     color: var(--dark-brown);
 }
+
+.footer ul li a:hover {
+    color: white;
+}
