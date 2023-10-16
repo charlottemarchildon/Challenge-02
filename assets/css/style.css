@@ -72,16 +72,22 @@ Centered image. Made image 250px by 250px.
     width: 300px;
 }
 
+/*
+Centered nav and added a background colour.
+Made height of nav bar 17% of page.
+*/
 .nav {
     text-align: center;
+    background-color: #ffb9a3;
+    height: 17%;
 }
 
-.nav ul {
-    height: 30px;
-}
-
+/*
+Added margins to space out between items as well as top and bottom.
+*/
 .nav ul li {
     display: inline-block;
-    margin: 20px 20px;
+    margin: 40px 110px 40px;
     font-size: 34px;
+    text-align: center;
 }
