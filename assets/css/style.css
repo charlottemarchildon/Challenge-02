@@ -37,6 +37,8 @@ Font assigned for header
 Font and font colour assigned for header h1
 */
 .header h1 {
+    text-align: center;
+    align-items: center;
     font-family: 'Bebas Neue', sans-serif;
     color: var(--h1-brown);
 }
