@@ -239,3 +239,7 @@ Added margins and centered text.
 #contact p {
     font-family: var(--paragraph-font);
 }
+
+#contact form ul li {
+    font-family: var(--paragraph-font);
+}
