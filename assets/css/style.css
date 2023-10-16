@@ -133,7 +133,7 @@ Centered text.
     text-align: center;
     align-items: center;
     padding-top: 100px;
-    margin: 80px 80px 80px;
+    margin: 80px 80px;
 }
 
 /*
@@ -146,7 +146,7 @@ Added margins and centered text.
     font-size: 34px;
     color: var(--dark-brown);
     text-align: center;
-    margin: 100px 80px 100px 80px;
+    margin: 100px 80px;
 }
 
 #project-wrapper {
@@ -160,7 +160,7 @@ Added margins and centered text.
     text-align: center;
     align-items: center;
     padding-top: 30px;
-    margin: 40px 80px 40px;
+    margin: 40px 80px;
 }
 
 .first-project {
@@ -196,7 +196,7 @@ Added margins and centered text.
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 40px 40px 40px;
+    margin: 40px 40px;
 }
 
 .second-project img,
@@ -264,4 +264,12 @@ input[type=submit]:hover {
 
 footer {
     background-color: var(--footer-colour);
+    align-items: center;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 20px 80px;
+    font-size: 20px;
 }
