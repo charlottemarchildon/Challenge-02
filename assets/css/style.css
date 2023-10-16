@@ -118,6 +118,14 @@ Making section 100% of the viewport.
     height: 100vh;
 }
 
+/*
+Added title font, size and colour. 
+Centered text.
+*/
 #about-me h2 {
     font-family: var(--title-font);
+    font-size: 64px;
+    color: var(--dark-brown);
+    text-align: center;
+    align-items: center;
 }
