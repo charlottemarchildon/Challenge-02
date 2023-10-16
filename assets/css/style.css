@@ -57,7 +57,7 @@ Text centered.
 /*
 Changing colour for last name.
 */
-.last-name {
+.name {
     color: var(--span-colour);
 }
 
