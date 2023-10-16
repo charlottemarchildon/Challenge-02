@@ -10,6 +10,7 @@ Declaring root variables.
     --background-yellow: #fffeed;
     --dark-brown: #733c0b;
     --span-colour: #e03d0b;
+    --pink: #ffb9a3;
     --title-font: 'Bebas Neue', sans-serif;
     --paragraph-font: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -80,7 +81,7 @@ Made height of nav bar 17% of page.
 */
 .nav {
     text-align: center;
-    background-color: #ffb9a3;
+    background-color: var(--pink);
     height: 17%;
 }
 
@@ -240,4 +241,11 @@ Added margins and centered text.
 
 #contact form ul li {
     font-family: var(--paragraph-font);
+    margin-bottom: 10px;
+}
+
+.form {
+    background-color: var(--pink);
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
