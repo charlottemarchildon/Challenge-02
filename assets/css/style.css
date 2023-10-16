@@ -144,6 +144,10 @@ Added margins and centered text.
     margin: 100px 80px 100px 80px;
 }
 
+#project-wrapper {
+    height: 100vh;
+}
+
 #projects h2 {
     font-family: var(--title-font);
     font-size: 64px;
@@ -167,8 +171,27 @@ Added margins and centered text.
     width: 500px;
 }
 
-.second-project {
+.second-project,
+.third-project,
+.fourth-project,
+.fifth-project {
     float: right;
+    width: 25%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-project img,
+.third-project img,
+.fourth-project img,
+.fifth-project img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact {
