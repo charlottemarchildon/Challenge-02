@@ -8,7 +8,7 @@ Declaring root variables.
 */
 :root {
     --background-yellow: #fffeed;
-    --h1-brown: #733c0b;
+    --dark-brown: #733c0b;
     --span-colour: #e03d0b;
 }
 
@@ -48,7 +48,7 @@ Text centered.
     align-items: center;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 120px;
-    color: var(--h1-brown);
+    color: var(--dark-brown);
     margin-bottom: 60px;
     padding: 15px;
 }
@@ -90,4 +90,9 @@ Added margins to space out between items as well as top and bottom.
     margin: 40px 110px 40px;
     font-size: 34px;
     text-align: center;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: var(--dark-brown);
 }
