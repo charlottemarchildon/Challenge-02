@@ -138,7 +138,8 @@ Centered text.
 Added font family, size and colour.
 Added margins and centered text.
 */
-#about-me p {
+#about-me p,
+#contact p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 34px;
     color: var(--dark-brown);
@@ -234,10 +235,6 @@ Added margins and centered text.
 #contact {
     clear: both;
     height: 100vh;
-}
-
-#contact p {
-    font-family: var(--paragraph-font);
 }
 
 #contact form ul li {
