@@ -11,6 +11,7 @@ Declaring root variables.
     --dark-brown: #733c0b;
     --span-colour: #e03d0b;
     --pink: #ffb9a3;
+    --footer-colour: #fc8058;
     --title-font: 'Bebas Neue', sans-serif;
     --paragraph-font: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -259,4 +260,8 @@ input[type=submit] {
 input[type=submit]:hover {
     color: var(--dark-brown);
     cursor: pointer;
+}
+
+footer {
+    background-color: var(--footer-colour);
 }
