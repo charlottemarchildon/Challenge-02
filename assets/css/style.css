@@ -9,6 +9,7 @@ Declaring root variables.
 :root {
     --background-yellow: #fffeed;
     --dark-brown: #733c0b;
+    --darker-brown: #472506;
     --span-colour: #e03d0b;
     --pink: #ffb9a3;
     --footer-colour: #fc8058;
@@ -103,7 +104,7 @@ Changed text colour.
 .nav ul li a,
 .footer ul li a {
     text-decoration: none;
-    color: var(--dark-brown);
+    color: var(--darker-brown);
 }
 
 /*
@@ -248,11 +249,17 @@ Added margins and centered text.
 
 .form {
     background-color: var(--pink);
+    color: var(--darker-brown);
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
+textarea {
+    color: var(--dark-brown);
+}
+
 input[type=submit] {
+    color: var(--darker-brown);
     font-size: 15px;
     padding: 7px;
     border-radius: 20px;
@@ -274,7 +281,7 @@ input[type=submit]:hover {
     display: inline-block;
     margin: 20px 80px;
     font-size: 20px;
-    color: var(--dark-brown);
+    color: var(--darker-brown);
 }
 
 .footer ul li a:hover {
