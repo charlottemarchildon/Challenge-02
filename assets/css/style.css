@@ -177,6 +177,7 @@ Added margins and centered text.
     text-align: center;
     font-family: var(--title-font);
     font-size: 30px;
+    text-shadow: 3px 3px 5px var(--dark-brown);
 }
 
 .second-project,
@@ -212,6 +213,7 @@ Added margins and centered text.
     font-family: var(--title-font);
     margin-right: 20px;
     letter-spacing: 2px;
+    text-shadow: 3px 3px 5px var(--dark-brown);
 }
 
 .first-project:hover,
