@@ -151,6 +151,9 @@ Added margins and centered text.
     margin: 100px 80px;
 }
 
+/*
+Setting height of the projects section to 100% of the viewport.
+*/
 #project-wrapper {
     height: 100vh;
 }
