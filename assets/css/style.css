@@ -158,6 +158,10 @@ Setting height of the projects section to 100% of the viewport.
     height: 100vh;
 }
 
+/*
+Assigning font family size and colour the h2.
+Centering content and adding padding and margins.
+*/
 #projects h2 {
     font-family: var(--title-font);
     font-size: 64px;
