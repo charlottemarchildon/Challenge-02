@@ -1,3 +1,11 @@
+:root {
+    --background-yellow: #fffeed;
+}
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-yellow);
 }
