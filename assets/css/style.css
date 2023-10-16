@@ -128,5 +128,18 @@ Centered text.
     color: var(--dark-brown);
     text-align: center;
     align-items: center;
-    margin: 60px 60px 60px;
+    padding-top: 100px;
+    margin: 80px 80px 80px;
+}
+
+/*
+Added font family, size and colour.
+Added margins and centered text.
+*/
+#about-me p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    color: var(--dark-brown);
+    text-align: center;
+    margin: 100px 80px 100px 80px;
 }
