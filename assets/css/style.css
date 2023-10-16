@@ -92,13 +92,20 @@ Added margins to space out between items as well as top and bottom.
     text-align: center;
 }
 
+/*
+Removed text decoration from list item links.
+Changed text colour.
+*/
 .nav ul li a {
     text-decoration: none;
     color: var(--dark-brown);
 }
 
+/*
+Changed background colour of links on hover and rounded borders.
+*/
 .nav ul li a:hover {
     background-color: #c7996f;
-    padding: 20px;
+    padding: 5px;
     border-radius: 20px;
 }
