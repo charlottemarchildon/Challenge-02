@@ -128,4 +128,5 @@ Centered text.
     color: var(--dark-brown);
     text-align: center;
     align-items: center;
+    margin: 60px 60px 60px;
 }
