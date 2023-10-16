@@ -11,6 +11,7 @@ Declaring root variables.
     --dark-brown: #733c0b;
     --span-colour: #e03d0b;
     --title-font: 'Bebas Neue', sans-serif;
+    --paragraph-font: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*
@@ -37,7 +38,7 @@ Height made to fit 100% of the viewport.
 */
 .header {
     height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 /*
@@ -232,4 +233,9 @@ Added margins and centered text.
 
 #contact {
     clear: both;
+    height: 100vh;
+}
+
+#contact p {
+    font-family: var(--paragraph-font);
 }
