@@ -287,3 +287,7 @@ input[type=submit]:hover {
 .footer ul li a:hover {
     color: white;
 }
+
+.footer ul li p {
+    font-family: var(--title-font);
+}
