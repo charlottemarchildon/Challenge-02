@@ -70,3 +70,10 @@ Centered image. Made image 250px by 250px.
     height: 250px;
     width: 250px;
 }
+
+/*
+Made nav display inline.
+*/
+.header .nav ul li {
+    display: inline;
+}
