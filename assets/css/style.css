@@ -109,3 +109,10 @@ Changed background colour of links on hover and rounded borders.
     padding: 5px;
     border-radius: 20px;
 }
+
+/*
+Making section 100% of the viewport.
+*/
+#about-me {
+    height: 100vh;
+}
