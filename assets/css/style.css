@@ -10,6 +10,7 @@ Declaring root variables.
     --background-yellow: #fffeed;
     --dark-brown: #733c0b;
     --span-colour: #e03d0b;
+    --title-font: 'Bebas Neue', sans-serif;
 }
 
 /*
@@ -46,7 +47,7 @@ Text centered.
 .header h1 {
     text-align: center;
     align-items: center;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: var(--title-font);
     font-size: 120px;
     color: var(--dark-brown);
     margin-bottom: 60px;
@@ -115,4 +116,8 @@ Making section 100% of the viewport.
 */
 #about-me {
     height: 100vh;
+}
+
+#about-me h2 {
+    font-family: var(--title-font);
 }
