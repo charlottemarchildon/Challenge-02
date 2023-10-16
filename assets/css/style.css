@@ -235,6 +235,7 @@ Added margins and centered text.
 #contact {
     clear: both;
     height: 100vh;
+    text-align: center;
 }
 
 #contact form ul li {
