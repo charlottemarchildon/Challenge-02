@@ -1,4 +1,9 @@
 /*
+Typography
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*
 Declaring root variables 
 */
 :root {
@@ -17,4 +22,12 @@ Assigning the background colour to a yellowish-white
 */
 body {
     background-color: var(--background-yellow);
+}
+
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header h1 {
+    font-family: 'Bebas Neue', sans-serif;
 }
