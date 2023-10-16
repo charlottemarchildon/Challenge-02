@@ -96,3 +96,9 @@ Added margins to space out between items as well as top and bottom.
     text-decoration: none;
     color: var(--dark-brown);
 }
+
+.nav ul li a:hover {
+    background-color: #c7996f;
+    padding: 20px;
+    border-radius: 20px;
+}
