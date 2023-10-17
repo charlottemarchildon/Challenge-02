@@ -315,7 +315,8 @@ textarea {
 }
 
 /*
-
+Changed font size and colour of Submit button text.
+Applied a padding around the text and rounded the border by 20px.
 */
 input[type=submit] {
     color: var(--darker-brown);
