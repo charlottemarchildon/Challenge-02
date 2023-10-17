@@ -207,7 +207,10 @@ Centered h3 and assigned a font family, size and added shadow to the text.
 }
 
 /*
-
+Made remaining 4 projects float to the right, beside the .first-project.
+Width of each div is 25% of the screen and height is 150px.
+Content is displayed as flex and centered within the parent div.
+Margin of 40px all around each item.
 */
 .second-project,
 .third-project,
