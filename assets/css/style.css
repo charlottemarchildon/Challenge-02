@@ -227,7 +227,8 @@ Margin of 40px all around each item.
 }
 
 /*
-
+Each project image besides the first is 150x150px.
+Display is set to flex and centered within the parent div.
 */
 .second-project img,
 .third-project img,
