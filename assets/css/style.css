@@ -172,6 +172,10 @@ Centering content and adding padding and margins.
     margin: 40px 80px;
 }
 
+/*
+Floating div to the left and setting position to relative.
+Added margin.
+*/
 .first-project {
     position: relative;
     float: left;
