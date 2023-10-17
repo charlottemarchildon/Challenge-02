@@ -356,7 +356,7 @@ Applied a margin all around to the list items and changed the font size and colo
 }
 
 /*
-
+Changed text colour of the list item links on hover.
 */
 .footer ul li a:hover {
     color: white;
