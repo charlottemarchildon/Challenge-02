@@ -326,7 +326,7 @@ input[type=submit] {
 }
 
 /*
-
+Made text colour and cursor change on hover.
 */
 input[type=submit]:hover {
     color: var(--dark-brown);
