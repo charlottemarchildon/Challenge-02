@@ -242,7 +242,9 @@ Display is set to flex and centered within the parent div.
 }
 
 /*
-
+Aligned each h3 to the center of their divs.
+Assigned a font, spacing between letters and applied a shadow to the text.
+Margin of 20px applied to space between the text and image.
 */
 .second-project h3,
 .third-project h3,
