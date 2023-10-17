@@ -363,7 +363,7 @@ Changed text colour of the list item links on hover.
 }
 
 /*
-
+Changed font for the p element in the .footer item list.
 */
 .footer ul li p {
     font-family: var(--title-font);
