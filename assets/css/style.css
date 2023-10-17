@@ -277,7 +277,9 @@ Text colour is white with a black shadow.
 }
 
 /*
-
+Assigned clear:both to make section float beneath the floated items above.
+Height of the section is 100% of the viewport.
+Text aligned to the center.
 */
 #contact {
     clear: both;
