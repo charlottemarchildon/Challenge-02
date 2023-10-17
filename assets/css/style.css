@@ -308,7 +308,7 @@ Padding of 40px applied to top and bottom of form content.
 }
 
 /*
-
+Changed textarea font colour to --dark-brown.
 */
 textarea {
     color: var(--dark-brown);
