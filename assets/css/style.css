@@ -46,7 +46,7 @@ Height made to fit 100% of the viewport.
 
 /*
 Font and font colour assigned for header h1.
-Text centered.
+Text centered and padding and margins applied.
 */
 .header h1 {
     text-align: center;
