@@ -297,7 +297,8 @@ Margin of 10px applied to the bottom of each list item.
 }
 
 /*
-
+Applied a background colour and font colour.
+Padding of 40px applied to top and bottom of form content.
 */
 .form {
     background-color: var(--pink);
