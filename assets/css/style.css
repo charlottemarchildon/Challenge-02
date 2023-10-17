@@ -66,7 +66,9 @@ Changing colour for the span tag.
 }
 
 /*
-Centered image. Made image 250px by 250px.
+Centered image. 
+Made image 250px by 250px.
+Applied automated margins to the left and right and 60px at the bottom.
 */
 .avatar {
     display: block;
