@@ -288,7 +288,8 @@ Text aligned to the center.
 }
 
 /*
-
+Assigned a font to the list items in the form.
+Margin of 10px applied to the bottom of each list item.
 */
 #contact form ul li {
     font-family: var(--paragraph-font);
