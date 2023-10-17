@@ -258,7 +258,10 @@ Margin of 20px applied to space between the text and image.
 }
 
 /*
-
+Changed background colour on hover with a 30% opacity to it.
+Applied padding surrounding the text.
+Background colour border is rounded by 20px.
+Text colour is white with a black shadow.
 */
 .first-project:hover,
 .second-project:hover,
