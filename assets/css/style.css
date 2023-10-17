@@ -345,7 +345,8 @@ Aligned items to center and applied a font family.
 }
 
 /*
-
+Made footer list items display as inline-block.
+Applied a margin all around to the list items and changed the font size and colour.
 */
 .footer ul li {
     display: inline-block;
