@@ -59,7 +59,7 @@ Text centered and padding and margins applied.
 }
 
 /*
-Changing colour for last name.
+Changing colour for the span tag.
 */
 .span {
     color: var(--span-colour);
