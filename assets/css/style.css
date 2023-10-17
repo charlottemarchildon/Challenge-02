@@ -91,10 +91,11 @@ Made height of nav bar 17% of page.
 
 /*
 Added margins to space out between items as well as top and bottom.
+Displayed as inline-block and changed font size as well as centered text.
 */
 .nav ul li {
     display: inline-block;
-    margin: 40px 110px 40px;
+    margin: 40px 110px;
     font-size: 34px;
     text-align: center;
 }
