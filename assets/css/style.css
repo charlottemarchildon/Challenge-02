@@ -182,6 +182,11 @@ Added margin.
     margin-left: 60px;
 }
 
+/*
+Setting .first-project img to display as block with automated margins on the left and right. 
+60px margins added to bottom of image.
+Image is made to be 500x500px.
+*/
 .first-project img {
     display: block;
     margin-left: auto;
@@ -191,6 +196,9 @@ Added margin.
     width: 500px;
 }
 
+/*
+
+*/
 .first-project h3 {
     text-align: center;
     font-family: var(--title-font);
@@ -198,6 +206,9 @@ Added margin.
     text-shadow: 3px 3px 5px var(--dark-brown);
 }
 
+/*
+
+*/
 .second-project,
 .third-project,
 .fourth-project,
@@ -212,6 +223,9 @@ Added margin.
     margin: 40px 40px;
 }
 
+/*
+
+*/
 .second-project img,
 .third-project img,
 .fourth-project img,
@@ -223,6 +237,9 @@ Added margin.
     align-items: center;
 }
 
+/*
+
+*/
 .second-project h3,
 .third-project h3,
 .fourth-project h3,
@@ -234,6 +251,9 @@ Added margin.
     text-shadow: 3px 3px 5px var(--dark-brown);
 }
 
+/*
+
+*/
 .first-project:hover,
 .second-project:hover,
 .third-project:hover,
@@ -247,17 +267,26 @@ Added margin.
     text-shadow: 3px 3px 5px black;
 }
 
+/*
+
+*/
 #contact {
     clear: both;
     height: 100vh;
     text-align: center;
 }
 
+/*
+
+*/
 #contact form ul li {
     font-family: var(--paragraph-font);
     margin-bottom: 10px;
 }
 
+/*
+
+*/
 .form {
     background-color: var(--pink);
     color: var(--darker-brown);
@@ -265,10 +294,16 @@ Added margin.
     padding-bottom: 40px;
 }
 
+/*
+
+*/
 textarea {
     color: var(--dark-brown);
 }
 
+/*
+
+*/
 input[type=submit] {
     color: var(--darker-brown);
     font-size: 15px;
@@ -276,11 +311,17 @@ input[type=submit] {
     border-radius: 20px;
 }
 
+/*
+
+*/
 input[type=submit]:hover {
     color: var(--dark-brown);
     cursor: pointer;
 }
 
+/*
+
+*/
 .footer {
     background-color: var(--footer-colour);
     align-items: center;
@@ -288,6 +329,9 @@ input[type=submit]:hover {
     font-family: var(--paragraph-font);
 }
 
+/*
+
+*/
 .footer ul li {
     display: inline-block;
     margin: 20px 80px;
@@ -295,10 +339,16 @@ input[type=submit]:hover {
     color: var(--darker-brown);
 }
 
+/*
+
+*/
 .footer ul li a:hover {
     color: white;
 }
 
+/*
+
+*/
 .footer ul li p {
     font-family: var(--title-font);
 }
