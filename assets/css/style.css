@@ -103,11 +103,13 @@ Displayed as inline-block and changed font size as well as centered text.
 /*
 Removed text decoration from list item links.
 Changed text colour.
+Added padding around links.
 */
 .nav ul li a,
 .footer ul li a {
     text-decoration: none;
     color: var(--darker-brown);
+    padding: 5px;
 }
 
 /*
@@ -115,7 +117,6 @@ Changed background colour of links on hover and rounded borders.
 */
 .nav ul li a:hover {
     background-color: #c7996f;
-    padding: 5px;
     border-radius: 20px;
 }
 
